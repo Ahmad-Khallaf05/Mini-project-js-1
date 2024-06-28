@@ -1,0 +1,51 @@
+.hed {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(42, 31%, 94%);
+}
+.Add-Book {
+display: flex;
+justify-content: center;
+}
+.space {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.edit, button.delete {
+    margin-left: 5px;
+}
